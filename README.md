@@ -19,6 +19,7 @@ Frameworks:
 - Expo
 - npm
 - Axios
+- react-navigation
 
 **Tecnologias**
 
@@ -33,7 +34,8 @@ Frameworks:
 
 **APIs**
 
--TMDB (https://developers.themoviedb.org/3)
+- TMDB (https://developers.themoviedb.org/3)
+- Youtube API v3
 
 **Autores**
 
