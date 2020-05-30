@@ -1,8 +1,8 @@
 import React from "react";
 import {useNavigation, useRoute} from '@react-navigation/native';
 import styles from './style';
-import logoImg from '../../assets/logo.js';
-import { NativeAppEventEmitter } from "react-native";
+import Logo from '../../assets/logo.js';
+import {View, Image} from "react-native";
 
 export default function Curso(){
     const navigation = useNavigation();
@@ -14,7 +14,7 @@ export default function Curso(){
     return(
         <View style={styles.container}>
             <View style={style.header}>
-                <Image source={logoImg}/>
+                <Image source={Logo}/>
                     
             </View>
         </View>
