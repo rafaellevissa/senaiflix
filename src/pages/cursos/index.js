@@ -1,7 +1,7 @@
 import React from "react";
 import {useNavigation, useRoute} from '@react-navigation/native';
 import styles from './style';
-import Logo from '../../assets/logo.js';
+import Logo from '../../assets/logo.png';
 import {View, Image} from "react-native";
 
 export default function Curso(){
@@ -13,10 +13,10 @@ export default function Curso(){
 
     return(
         <View style={styles.container}>
-            <View style={style.header}>
+            <View style={styles.header}>
                 <Image source={Logo}/>
                     
             </View>
         </View>
-    )
+    );
 }

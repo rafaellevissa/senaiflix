@@ -9,7 +9,7 @@ export default function Routes(){
     return(
         <NavigationContainer>
             <AppStack.Navigator screenOptions = {{headerShown: false}}>
-                <AppStack.Screen name="cursos" component={Cursos}/>
+                <AppStack.Screen name="Cursos" component={Cursos}/>
             </AppStack.Navigator>
         </NavigationContainer>
     );
