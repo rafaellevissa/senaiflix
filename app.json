@@ -1,32 +1,25 @@
 {
-    "expo": {
-      "name": "Senaiflix",
-      "slug": "senaiflix",
-      "platforms": [
-        "ios",
-        "android"
-      ],
-      "version": "1.0.0",
-      "orientation": "portrait",
-      "icon": "./assets/icon.png",
-      "splash": {
-        "image": "./assets/splash.png",
-        "resizeMode": "contain",
-        "backgroundColor": "#000000"
-      },
-      "updates": {
-        "fallbackToCacheTimeout": 0
-      },
-      "assetBundlePatterns": [
-        "**/*"
-      ],
-      "ios": {
-        "supportsTablet": true
-      },
-  
-      "android": {
-        "package": "com.thecoders.senaiflix"
-      }
+  "expo": {
+    "name": "Dev Flix",
+    "slug": "devflix",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#333333"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.senai.devflix"
     }
   }
-  
+}
