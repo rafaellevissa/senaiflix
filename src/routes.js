@@ -12,12 +12,13 @@ import Desenvolvimento1 from "./pages/Desenvolvimento/desenvolvimento1";
 export default function Routes() {
   return (
     <NavigationContainer>
-      <AppTab.Navigator screenOptions={{ headerShown: false }}>
+      <AppTab.Navigator screenOptions={{headerShown: false}}>
         <AppTab.Screen name="Cursos" component={Cursos} />
         <AppTab.Screen name="Disciplinas" component={Disciplinas} />
         <AppTab.Screen name="Logica" component={Logica} />
-        <AppTab.Screen name="Desenvolvimento1" component={Desenvolvimento1}/>
+        <AppTab.Screen name="Desenvolvimento1" component={Desenvolvimento1} />
       </AppTab.Navigator>
+      
     </NavigationContainer>
   );
 }
