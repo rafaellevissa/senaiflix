@@ -27,7 +27,7 @@ export default StyleSheet.create({
     },
     body: {
         flex: 1,
-        width: '50',
+        width: '50%',
         height: '70%',
         backgroundColor: '#000',
         marginTop: 150,

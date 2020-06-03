@@ -10,30 +10,27 @@ export default function Disciplinas({ navigation }) {
       <View style={Style.header}>
         <View style={Style.header}>
           <Image source={logoImg} />
-        </View>
-        <TouchableOpacity onPress={() => navigation.goBack()}>
-          <Feather name="arrow-left" size={18} color="#000000" />
+        </View>        
+      </View>
+      <View style={Style.content}>
+        <Text style={Style.cursoNome}>Desenvolvimento de Sistemas</Text>
+        <TouchableOpacity
+          style={Style.coursesSubjects}
+          onPress={() => navigation.navigate("Logica")}>
+          <Text style={Style.coursesSubjectsText}>
+            Lógica de programação
+          </Text>
         </TouchableOpacity>
-        </View>
-        <View style={Style.content}>
-          <Text style={Style.cursoNome}>Desenvolvimento de Sistemas</Text>
-          <TouchableOpacity
-            style={Style.coursesSubjects}
-            onPress={() => navigation.navigate("Logica")}>
-            <Text style={Style.coursesSubjectsText}>
-              Lógica de programação
-            </Text>
-          </TouchableOpacity>
 
-          <TouchableOpacity
-            style={Style.coursesSubjects}
-            onPress={() => navigation.navigate("Desenvolvimento1")}>
-            <Text style={Style.coursesSubjectsText}>
-              Desenvolvimento de Sistemas 1
-            </Text>
-          </TouchableOpacity>
+        <TouchableOpacity
+          style={Style.coursesSubjects}
+          onPress={() => navigation.navigate("Desenvolvimento1")}>
+          <Text style={Style.coursesSubjectsText}>
+            Desenvolvimento de Sistemas 1
+          </Text>
+        </TouchableOpacity>
 
-        </View>      
+      </View>      
     </View>
   );
 }
