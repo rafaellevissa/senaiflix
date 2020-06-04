@@ -30,6 +30,10 @@
 - Expo
 - Axios
 
+**Arquitetura**
+
+![arquitetura](Doc/DevFlix-Arquitetura.png)
+
 **Comandos**
 
 - Instalar o Expo-cli:
